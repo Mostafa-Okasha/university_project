@@ -38,7 +38,9 @@ $(function(){
    let remText=myText-textlenth;
    $(".countChar").html('<span>'+remText+'</span> Characters Remaining');
  })
- /*
+ 
+
+
  let currentIndex =0;
  let imgArr=[];
  let imgs=document.querySelectorAll(".img-item");
@@ -61,7 +63,6 @@ $(function(){
  close.onclick=function()
  {
      lightbContainer.classList.remove("show");
-     console.log("okasha");
  }
  
  next.addEventListener("click",function(){
@@ -80,4 +81,4 @@ prev.addEventListener("click",function(){
           currentIndex=imgs.length-1;
       }
       lightbox.style.backgroundImage="url("+imgs[currentIndex].src+")";
-})*/
+})

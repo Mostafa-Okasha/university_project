@@ -336,6 +336,10 @@ header
     right: 0px;
     display: none !important;
 }
+.show
+{
+    display: flex !important;
+}
 .noname
 {
     height: 50%;
